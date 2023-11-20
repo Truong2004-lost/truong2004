@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đoàn Thanh niên Khoa Công nghệ thông tin - VNUA</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="keywords" content="Đoàn Thanh niên của khoa Công nghệ thông tin, ĐTN CNTT - Vnua">
+    <meta name="topic" content="VNUA, Đoàn Thanh niên khoa Công nghệ thông tin, HVNN ĐTN CNTT">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="vi">
+</head>
+<body>
+    <div class="header" id="home">
+        <nav id="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpg" alt="logo"></a>
+        </div>
+        </nav>
+        <h1>HỌC VIỆN NÔNG NGHIỆP VIỆT NAM</h1>
+        <h1>Đoàn Thanh niên Khoa Công nghệ thông tin</h1>
+        <div class="links" id="nav">
+            <a href="index.html">Trang Chủ</a>
+            <a href="hoatdong.html">Hoạt động</a>
+            <a href="noidung.html">Nội dung nổi bật</a>
+            <a href="thuvienhtml">Thư viện</a>
+            <a href="lienhe.html">Liên hệ</a>
+            <a href="#"><a href="login.html">Login</a></a>
+        </div>
+    </div>
+    <!-- hết phần khung -->
+
+    <!-- bắt đầu phần chính -->
+    <section class="home" id="home">
+        <div class="content">
+            <div class="img"><img src="a1.png"></div>
+            <div class="admin">
+                <img src="admin.png" alt="admin">
+                <h3>Admin<br />1/1/2024.12:00</h3>
+            </div>
+            <div class="content-content">
+                <h4>Công đoàn khoa Công nghệ Thông tin tổ chức chuyến nghỉ mát 
+                    hè 2023 và thăm Quê Bác</h4>
+                <p>Nằm trong chuỗi các hoạt động chăm lo đời sống tinh thần cho CBVC và 
+                    NLĐ khoa Công nghệ Thông tin, được sự nhất trí của Ban chủ nhiệm khoa, 
+                    BCH Công đoàn Khoa đã tổ chức chuyến nghỉ mát hè 3 ngày 2 đêm 
+                    (Từ 19/07/2023 đến 21/07/2023) tại Bãi biển Cửa Lò, Nghệ An với sự tham gia 
+                    đông đảo của CBVC trong khoa và gia đình.
+                    
+                Hoạt động nghỉ mát hè là một trong những hoạt động thường niên của 
+                    Công đoàn khoa Công nghệ Thông tin nhằm phát huy hơn nữa vai trò của 
+                    Công đoàn trong việc chăm lo đời sống vật chất, tinh thần cho CBVC và 
+                    Người lao động. Đây cũng là hoạt động rất có ý nghĩa nhằm động viện, khích lệ 
+                    CBVC sau một năm bận rộn với công việc giảng dạy, nghiên cứu khoa học… 
+                    giúp họ tái tạo năng lượng, tăng thêm động lực để cống hiến nhiều hơn nữa 
+                    cho Khoa và Học viện.
+                    
+                Trong chuyến nghỉ mát biển Cửa Lò, mặc dù di chuyển với quãng đường khá xa 
+                    từ Hà Nội tới Nghệ An nhưng đoàn vẫn có nhiều điều kiện ủng hộ như thời tiết 
+                    rất đẹp, bãi biển trong, sạch và đặc biệt vắng nên CBVC và gia đình cảm thấy 
+                    rất vui vẻ, hứng khởi.
+                    
+                Kết hợp với chuyến đi nghỉ mát, đoàn cũng đã có chuyến thăm Quê hương 
+                    Bác Hồ, khu di tích quốc gia đặc biệt thuộc xã Kim Liên, huyện Nam Đàn, tỉnh 
+                    Nghệ An. Tại đây, đoàn CBVC khoa CNTT, đặc biệt các cháu là con CBVC trong 
+                    khoa đã được nghe và thấu hiểu sâu sắc về cội nguồn văn hóa làng quê, nơi đã
+                    sinh ra và nuôi dưỡng vị lãnh tụ của đất nước ta - Chủ tịch Hồ Chí Minh từ đó 
+                    góp phần nâng cao nhận thức, bồi dưỡng thêm những giá trị truyền thống 
+                    cho các cháu.</p>
+                    <div class="img"><img src="a2.png"></div>
+            </div>
+        </div>
+    </section>
+    <script >
+        let menu = document.getElementById("nav");
+        // nav bg color change
+        function change() {
+        var nav = document.getElementById("navbar");
+        var value = window.scrollY;
+        if (value > 80) {
+            nav.classList.add("nav-change");
+        } else {
+            nav.classList.remove("nav-change");
+        }
+        }
+    
+        window.addEventListener("scroll", change);
+    
+        $(".btnGotop").on("click", function(e){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        });
+        </script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js' type='text/javascript'></script>
+        <script type='text/javascript'>
+        $(function() {
+        $(window).scroll(function() {
+        if ($(this).scrollTop() != 0) {
+        $('#bttop').fadeIn();
+        } else {
+        $('#bttop').fadeOut();
+        }
+        });
+        $('#bttop').click(function() {
+        $('body,html').animate({
+        scrollTop: 0
+        }, 800);
+        });
+        });
+        </script>
+</body>
+</html>
