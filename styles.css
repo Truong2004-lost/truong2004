@@ -14,14 +14,13 @@ body {
     width: 60px;
     border-radius: 50%;
     position: absolute;
-    top: 20px;
-    left: 400px;
+    margin-top: 10px;
+    margin-left: 425px;
 }
 .links {
     background-color: #448cd8;
     padding: 7px 0;
     text-align: center;
-    
 }
 .links a{
     position: relative;
@@ -68,26 +67,31 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     border-radius: 50%;
     position: absolute;
     top: 320px;
-    left: 440px;
+    left: 400px;
 }
 .home .admin h3{
     color: rgb(0, 0, 0);
     width: 60px;
+    text-align: justify;
     border-radius: 50%;
     display: flex;
     position: absolute;
-    top: 320px;
-    left: 510px;
+    top: 310px;
+    left: 470px;
 }
 .home .content-content{
     width: 800px;
     height: 700px;
     font-size: 20px;
+    text-align: justify;
     position: absolute;
     top: 360px;
     left: 380px;
 }
-
+.content-content img{
+    max-width: 100%;
+    height: auto;
+}
 .contents p{
     width: 100px;
     height: 50px;
@@ -121,8 +125,30 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
 }
 .contentt img{
     color: rgb(251, 249, 249);
-    width: 600px;
+    width: 350px;
+    max-width: 50%;
+    height: auto;
     position: absolute;
     top: 220px;
     left: 400px;
+}
+.content2{
+    font-size: 1em;
+    position: absolute;
+    left: 35%;
+}
+.content2 h5{
+    font-size: 1.2em;
+    height: 10px;
+}
+.content2 p1{
+    font-size: 1.1em;
+}
+.home .ghim img{
+    color: rgb(251, 249, 249);
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 30px;
+    left: 620px;
 }

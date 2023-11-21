@@ -7,7 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: rgb(57, 103, 136);
+    background: rgb(145, 165, 181);
     display: grid;
     justify-content: center;
     align-content: center;
@@ -21,6 +21,12 @@ body{
 .inp{
     padding-bottom: 10px;
     border-bottom: 2px solid #eee;
+}
+.inp h{
+    position: absolute;
+    margin-left: -250px;
+    margin-top: 75px;
+    opacity: 0.3;
 }
 .input{
     border: none;
