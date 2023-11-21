@@ -17,6 +17,7 @@ body{
 }
 .title{
     font-size: 35px;
+    text-align: center;
 }
 .inp{
     padding-bottom: 10px;
@@ -25,7 +26,7 @@ body{
 .inp h{
     position: absolute;
     margin-left: -250px;
-    margin-top: 75px;
+    margin-top: 70px;
     opacity: 0.3;
 }
 .input{
@@ -66,4 +67,8 @@ body{
     margin-bottom: 40px;
     letter-spacing: 0.5px;
     font-size: 15px;
+}
+.chuy{
+    font-size: small;
+    margin-top: 60px;
 }

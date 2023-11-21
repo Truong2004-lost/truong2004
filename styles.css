@@ -1,4 +1,5 @@
 /* Đặt các kiểu cơ bản cho trang web */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     font-family: Arial, sans-serif;
 }
@@ -9,14 +10,7 @@ body {
     padding: 0;
     background-color:#fff;
 }
-.logo img{
-    color: rgb(251, 249, 249);
-    width: 60px;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 425px;
-}
+
 .links {
     background-color: #448cd8;
     padding: 7px 0;
@@ -45,12 +39,40 @@ body {
     transform: scaleX(1);
     transform-origin: left;
 }
+.logo img{
+    display: block;
+    color: rgb(251, 249, 249);
+    max-width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 425px;
+    
+}
 .header h1{
     font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 0;
     text-align: center;
+}
+.header .view{
+    font-size: 4px;
+    font-family: Arial,sans-serif;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 425px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    overflow-anchor: none;
+    list-style: none;
+    width: 100%;
+    margin-left: 30%;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
 }
 
 a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
@@ -66,7 +88,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     width: 60px;
     border-radius: 50%;
     position: absolute;
-    top: 320px;
+    top: 330px;
     left: 400px;
 }
 .home .admin h3{
@@ -76,17 +98,17 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     border-radius: 50%;
     display: flex;
     position: absolute;
-    top: 310px;
+    top: 320px;
     left: 470px;
 }
 .home .content-content{
-    width: 800px;
-    height: 700px;
+    width: 50%;
+    height: 100%;
     font-size: 20px;
     text-align: justify;
     position: absolute;
-    top: 360px;
-    left: 380px;
+    margin-top: 4%;
+    margin-left: 25%;
 }
 .content-content img{
     max-width: 100%;
@@ -151,4 +173,30 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     position: absolute;
     margin-top: 30px;
     left: 620px;
+}
+#bttop{
+    border:1px solid #4adcff;
+    background:#24bde2;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:35px;
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#fff;
+    font-size:11px;
+    font-weight:900
+}
+#bttop:hover{
+    border:1px solid #ffa789;
+    background:#ff6734
+}
+@media only screen and (max-width: 46.1875em){
+    
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+    
 }
