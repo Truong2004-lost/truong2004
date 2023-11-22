@@ -12,6 +12,19 @@ body{
     justify-content: center;
     align-content: center;
 }
+.logo a{
+    border: none;
+    outline: none;
+    background: none;
+    width: 260px;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 500px;
+    padding-right: 10px;
+    font-size: 17px;
+    color: #fff;
+    
+}
 ::-webkit-input-placeholder{
     color: #ffffff;
 }
