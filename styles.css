@@ -196,6 +196,9 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     .home .content-content{
         font-size: 10px;
     }
+    .home .content img{
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
