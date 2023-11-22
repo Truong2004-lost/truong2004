@@ -196,7 +196,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     .home .content-content{
         font-size: 10px;
     }
-    .home .content img{
+    .home .content .img1 img{
         width: 50%;
     }
 }
