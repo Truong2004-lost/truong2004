@@ -16,11 +16,10 @@ body{
     border: none;
     outline: none;
     background: none;
-    width: 260px;
+    width: 100%;
     position: absolute;
-    margin-top: -130px;
-    margin-left: 500px;
-    padding-right: 10px;
+    margin-top: -7%;
+    margin-left: 30%;
     font-size: 17px;
     color: #fff;
     
@@ -84,4 +83,10 @@ body{
 .chuy{
     font-size: small;
     margin-top: 60px;
+}
+@media only screen and (max-width: 46.1875em){
+    .logo a{
+        margin-top: -100px;
+        margin-left: 250px;
+    }
 }
