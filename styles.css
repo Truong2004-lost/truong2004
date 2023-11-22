@@ -201,6 +201,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     }
     .logo img{
         width: 8%;
+        margin-left: 5%;
     }
     .home .admin h3{
         font-size: 10px;
