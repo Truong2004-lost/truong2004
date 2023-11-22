@@ -193,11 +193,17 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     background:#ff6734
 }
 @media only screen and (max-width: 46.1875em){
+    .header .links {
+        font-size: 10px;
+    }
     .home .content-content{
         font-size: 10px;
     }
     .home .content .img1 img{
         width: 50%;
+    }
+    .content2 {
+        font-size: 15px;
     }
 }
 
