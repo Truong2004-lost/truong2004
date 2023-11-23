@@ -212,23 +212,28 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     .home .content .img1 img{
         width: 50%;
     }
+    .home .admin img{
+        margin-top: 2%;
+    }
     .contents p{
         font-size: 20px;
         margin-left: 10%;
     }
     .contents .admin1 img{
         width: 8%;
+        margin-top: 10%;
         margin-left: 10%;
     }
     .contents .admin1 h4{
         font-size: 10px;
         margin-left: 20%;
-        margin-top: 9%;
+        margin-top: 10%;
     }
     .contentt p{
         margin-left: 25%;
     }
     .contentt img{
+        margin-top: 12%;
         margin-left: 25%;
     }
     .content2 {
