@@ -365,7 +365,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-top: 89%;
     margin-left: 65%;
 }
-.bar2 {
+.bar2 .input{
     width: 100%;
     height: 20%;
     background-color: rgb(226, 215, 215);
@@ -376,10 +376,10 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-top: 89%;
     margin-left: 65%;
 }
-.bar2 p{
+.lienhe span{
     position: absolute;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 82.5%;
+    margin-left: 1%;
 }
 
 
