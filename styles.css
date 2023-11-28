@@ -39,6 +39,10 @@ body {
     transform: scaleX(1);
     transform-origin: left;
 }
+.links a:active{
+    color: #000000;
+    text-decoration: none;
+}
 .logo img{
     display: flex;
     color: rgb(251, 249, 249);
@@ -112,6 +116,9 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     gap: 25%;
     padding-bottom: 10px;
     border-bottom: 2px solid #000000;
+}
+.tuongtac span{
+    font-size: 40px;
 }
 .home .n1{
     display: flex;
@@ -397,15 +404,19 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     }
     .home .admin h3{
         font-size: 10px;
+        margin-left: 15%;
     }
     .home .content-content{
+        width: 80%;
         font-size: 10px;
+        margin-left: 10%;
     }
     .home .content .img1 img{
         width: 50%;
     }
     .home .admin img{
         margin-top: 2%;
+        margin-left: -40%;
     }
     .contents p{
         font-size: 20px;
@@ -421,8 +432,33 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
         margin-left: 20%;
         margin-top: 10%;
     }
+    .contentt img{
+        width: 200px;
+    }
     .contentt p{
-        margin-left: 25%;
+        margin-left: 10%;
+    }
+    .contentt a{
+        margin-left: 0%;
+    }
+    .contentt a1{
+        margin-left: 43%;
+    }
+    .contentt a2{
+        margin-top: 29%;
+        margin-left: 0%;
+    }
+    .contentt a3{
+        margin-top: 29%;
+        margin-left: 43%;
+    }
+    .contentt a4{
+        margin-top: 50%;
+        margin-left: 0%;
+    }
+    .contentt a5{
+        margin-top: 50%;
+        margin-left: 43%;
     }
     .contentt img{
         margin-top: 12%;
@@ -430,10 +466,33 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     }
     .content2 {
         font-size: 15px;
-        margin-left: -7%;
+        margin-left: -24%;
     }
     .home .ghim img{
         width: 1.9%;
+    }
+    .home .tuongtac span{
+        font-size: 10px;
+    }
+    .n1 img{
+        width: 30px;
+    }
+    .n1 h5{
+        margin-left: 12%;
+    }
+    .n1 p{
+        margin-left: 12%;
+        margin-top: 15%;
+    }
+    .n2 img{
+        width: 30px;
+    }
+    .n2 h5{
+        margin-left: 12%;
+    }
+    .n2 p{
+        margin-left: 12%;
+        margin-top: 15%;
     }
 }
 
