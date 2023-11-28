@@ -384,6 +384,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-left: 65%;
 }
 .lienhe span{
+    font-size: 35px;
     position: absolute;
     margin-top: 82.5%;
     margin-left: 1%;
@@ -433,7 +434,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
         margin-top: 10%;
     }
     .contentt img{
-        width: 200px;
+        width: 180px;
     }
     .contentt p{
         margin-left: 10%;
@@ -470,6 +471,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     }
     .home .ghim img{
         width: 1.9%;
+        margin-left: -27%;
     }
     .home .tuongtac span{
         font-size: 10px;
@@ -493,6 +495,30 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     .n2 p{
         margin-left: 12%;
         margin-top: 15%;
+    }
+    .cm1 img {
+        width: 30px;
+        margin-left: -20%;
+    }
+    .cm1 h5{
+        margin-left: -10%;
+    }
+    .cm1 p{
+        margin-top: 13%;
+        margin-left: -10%;
+    }
+    .cm2 img{
+        width: 30px;
+        margin-top: 30%;
+        margin-left: -20%;
+    }
+    .cm2 h5{
+        margin-top: 30%;
+        margin-left: -10%;
+    }
+    .cm2 p{
+        margin-top: 42%;
+        margin-left: -10%;
     }
 }
 
