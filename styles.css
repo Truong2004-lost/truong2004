@@ -10,7 +10,7 @@ body {
     padding: 0;
     background-color:#fff;
 }
-
+/* phần đầu logo */
 .links {
     background-color: #448cd8;
     padding: 7px 0;
@@ -71,10 +71,11 @@ body {
     padding: 0 10px;
     margin-left: 30%;
 }
-
+/* phần thân */
 a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     transition: .3s ease-in-out;
 }
+/* trang chủ */
 .home{
     text-align: center;
     background: #c5a1a1;
@@ -168,7 +169,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-left: 7%;
     
 }
-
+/* phần comment */
 .comment .cm1{
     display: flex;
     width: 80%;
@@ -227,7 +228,8 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     padding-bottom: 5px;
     border-bottom: 2px solid #000000;
 }
-.contents p{
+/* phần hoạt động */
+.hoatdong .content p{
     display: flex;
     font-size: 1.3em;
     color: #000000;
@@ -235,7 +237,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-top: 4%;
     margin-left: 30%;
 }
-.contents .admin1 img{
+.hoatdong .content .admin1 img{
     color: rgb(251, 249, 249);
     width: 4%;
     border-radius: 50%;
@@ -243,67 +245,13 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-top: 8%;
     margin-left: 30%;
 }
-.contents .admin1 h4{
+.hoatdong .content .admin1 h4{
     display: flex;
     position: absolute;
     margin-top: 8%;
     margin-left: 35%;
 }
-.contentt p{
-    font-size: 1.3em;
-    color: #000000;
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 30%;
-}
-.contentt img{
-    display: flex;
-    color: rgb(251, 249, 249);
-    width: 250px;
-    height: auto;
-}
-.contentt a{
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 30%;
-}
-.contentt a1{
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 50%;
-}
-.contentt a2{
-    position: absolute;
-    margin-top: 18%;
-    margin-left: 30%;
-}
-.contentt a3{
-    position: absolute;
-    margin-top: 18%;
-    margin-left: 50%;
-}
-.contentt a4{
-    position: absolute;
-    margin-top: 28%;
-    margin-left: 30%;
-}
-.contentt a5{
-    position: absolute;
-    margin-top: 28%;
-    margin-left: 50%;
-}
-.content2{
-    font-size: 1em;
-    position: absolute;
-    left: 35%;
-}
-.content2 h5{
-    font-size: 1.2em;
-    height: 10px;
-}
-.content2 p1{
-    font-size: 1.1em;
-}
+/* dấu sao phần nội dung */
 .home .ghim img{
     color: rgb(251, 249, 249);
     width: 2%;
@@ -312,6 +260,177 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     margin-top: 2%;
     margin-left: -10%;
 }
+/* phần nhóm */
+.nhom .content{
+    font-size: 1.3em;
+    color: #000000;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+.nhom .admin{
+    width: 400%;
+    height: 100%;
+    background-color: #c8bcbc;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 200%;
+}
+.nhom .admin img{
+    color: rgb(251, 249, 249);
+    width: 7%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.nhom .admin h4{
+    font-size: 18px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.nhom .admin p1{
+    font-size: 14px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.nhom .admin .bar{
+    width: 20%;
+    height: 50%;
+    background-color: blueviolet;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 85%;
+}
+.nhom .admin .bar p2{
+    color: #fff;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+/* phần thư viện */
+.thuvien .content p{
+    font-size: 1.3em;
+    color: #000000;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.thuvien .content img{
+    display: flex;
+    color: rgb(251, 249, 249);
+    width: 250px;
+    height: auto;
+}
+.thuvien .content a{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+.thuvien .content a1{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 50%;
+}
+.thuvien .content a2{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 30%;
+}
+.thuvien .content a3{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 50%;
+}
+.thuvien .content a4{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 30%;
+}
+.thuvien .content a5{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 50%;
+}
+/* phần liên hệ */
+.lienhe .content{
+    font-size: 1em;
+    position: absolute;
+    left: 35%;
+}
+.lienhe .content h5{
+    font-size: 1.2em;
+    height: 10px;
+}
+.lienhe .content p1{
+    font-size: 1.1em;
+}
+.lienhe .bar {
+    width: 130%;
+    height: 30%;
+    background-color: #053ef7;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 65%;
+}
+.lienhe .bar .admin2 img{
+    color: rgb(251, 249, 249);
+    width: 7%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+.lienhe .bar .admin2 p{
+    font-size: 1em;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.lienhe .square {
+    width: 130%;
+    height: 130%;
+    background-color: rgb(215, 201, 201);
+    position: absolute;
+    margin-top: 20%;
+}
+.lienhe .bar1 {
+    width: 130%;
+    height: 30%;
+    background-color: #948888;
+    transform: translate(-50%, -50%);
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    margin-top: 89%;
+    margin-left: 65%;
+}
+.lienhe .bar2 .input{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(226, 215, 215);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    z-index: 4;
+    position: absolute;
+    margin-top: 89%;
+    margin-left: 65%;
+}
+.lienhe span{
+    font-size: 35px;
+    position: absolute;
+    margin-top: 82.5%;
+    margin-left: 1%;
+}
+/* back to top */
 #bttop{
     border:1px solid #4adcff;
     background:#24bde2;
@@ -330,67 +449,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     border:1px solid #ffa789;
     background:#ff6734
 }
-.bar {
-    width: 130%;
-    height: 30%;
-    background-color: #053ef7;
-    transform: translate(-50%, -50%);
-    border-radius: 10px 10px 0 0;
-    z-index: 1;
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 65%;
-}
-.bar .admin2 img{
-    color: rgb(251, 249, 249);
-    width: 7%;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 1.5%;
-    margin-left: 2%;
-}
-.bar .admin2 p{
-    font-size: 1em;
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 10%;
-}
-.square {
-    width: 130%;
-    height: 130%;
-    background-color: rgb(215, 201, 201);
-    position: absolute;
-    margin-top: 20%;
-}
-.bar1 {
-    width: 130%;
-    height: 30%;
-    background-color: #948888;
-    transform: translate(-50%, -50%);
-    border-radius: 0px 0px 10px 10px;
-    position: absolute;
-    margin-top: 89%;
-    margin-left: 65%;
-}
-.bar2 .input{
-    width: 100%;
-    height: 20%;
-    background-color: rgb(226, 215, 215);
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    z-index: 4;
-    position: absolute;
-    margin-top: 89%;
-    margin-left: 65%;
-}
-.lienhe span{
-    font-size: 35px;
-    position: absolute;
-    margin-top: 82.5%;
-    margin-left: 1%;
-}
-
-
+/* chỉnh trên thiết bị nhỏ hơn lap */
 @media only screen and (max-width: 46.1875em){
     .header h1{
         font-size: 12px;
@@ -403,6 +462,7 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
         margin-top: -1%;
         margin-left: 7%;
     }
+    /* Trang chủ */
     .home .admin h3{
         font-size: 10px;
         margin-left: 15%;
@@ -418,56 +478,6 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
     .home .admin img{
         margin-top: 2%;
         margin-left: -40%;
-    }
-    .contents p{
-        font-size: 20px;
-        margin-left: 10%;
-    }
-    .contents .admin1 img{
-        width: 8%;
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-    .contents .admin1 h4{
-        font-size: 10px;
-        margin-left: 20%;
-        margin-top: 10%;
-    }
-    .contentt img{
-        width: 180px;
-    }
-    .contentt p{
-        margin-left: 10%;
-    }
-    .contentt a{
-        margin-left: 0%;
-    }
-    .contentt a1{
-        margin-left: 43%;
-    }
-    .contentt a2{
-        margin-top: 29%;
-        margin-left: 0%;
-    }
-    .contentt a3{
-        margin-top: 29%;
-        margin-left: 43%;
-    }
-    .contentt a4{
-        margin-top: 50%;
-        margin-left: 0%;
-    }
-    .contentt a5{
-        margin-top: 50%;
-        margin-left: 43%;
-    }
-    .contentt img{
-        margin-top: 12%;
-        margin-left: 25%;
-    }
-    .content2 {
-        font-size: 15px;
-        margin-left: -24%;
     }
     .home .ghim img{
         width: 1.9%;
@@ -520,6 +530,60 @@ a #home,a #hoatdong,a #noidung,a #thuvien,a #lienhe{
         margin-top: 42%;
         margin-left: -10%;
     }
+    /* hoạt động */
+    .hoatdong .content p{
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .hoatdong .content .admin1 img{
+        width: 8%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .hoatdong .content .admin1 h4{
+        font-size: 10px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    /* thư viện */
+    .thuvien .content img{
+        width: 180px;
+    }
+    .thuvien .content p{
+        margin-left: 10%;
+    }
+    .thuvien .content a{
+        margin-left: 0%;
+    }
+    .thuvien .content a1{
+        margin-left: 43%;
+    }
+    .thuvien .content a2{
+        margin-top: 29%;
+        margin-left: 0%;
+    }
+    .thuvien .content a3{
+        margin-top: 29%;
+        margin-left: 43%;
+    }
+    .thuvien .content a4{
+        margin-top: 50%;
+        margin-left: 0%;
+    }
+    .thuvien .content a5{
+        margin-top: 50%;
+        margin-left: 43%;
+    }
+    .thuvien .content img{
+        margin-top: 12%;
+        margin-left: 25%;
+    }
+    /* liên hệ */
+    .lienhe .content {
+        font-size: 15px;
+        margin-left: -24%;
+    }
+    
 }
 
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
